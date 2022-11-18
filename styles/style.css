@@ -1,0 +1,103 @@
+body {
+    background-color: rgb(33, 9, 78);
+    font-family: "Calibre", sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+    margin: 0;
+    color: rgb(76, 161, 163);
+
+    /* color: white; */
+    /* opacity: 0.5; */
+}
+h1 {
+    color: white;
+    opacity: 0.8;
+}
+#button {
+    background-color: transparent ;
+    opacity: 0.6;
+    border: 2px solid white;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 12px;
+}
+
+#button:hover{
+    background-color: rgb(111, 57, 185);
+    opacity: 0.8;
+}
+
+/* Large screens */
+.navigation {
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    list-style: none;
+    /* margin: 0;  */
+    /* background: rgb(108, 74, 182); */
+    
+}
+
+.navigation a {
+    text-decoration: none;
+    display:block;
+    padding: 1em;
+    /* color: white; */
+    color:rgb(76, 161, 163);
+
+}
+
+.navigation a:hover {
+    color:white;
+}
+
+/* Medium screens */
+@media all and (max-width: 800px) {
+    .navigation {
+      /* When on medium sized screens, we center it by evenly distributing empty space around items */
+      justify-content: space-around;
+    }
+  }
+/* Small screens */
+@media all and (max-width: 500px) {
+    .navigation {
+      /* On small screens, we are no longer using row direction but column */
+      flex-direction: column;
+    }
+  }
+
+  .social-media-link  a{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color:rgb(76, 161, 163);;
+    
+}
+.social-media-link a:hover {
+    color: white;
+}
+
+
+/* Portfolio page */
+.grid {
+    display:grid;
+    margin: auto;
+    background-color: aquamarine;
+    width: 100vw;
+    height: 100vh;
+    grid-template: 25% 25% 25% 25% / 20% 70% 10% ;
+
+}
+.grid header {
+    background-color: aqua;
+   
+}
+
+.grid main {
+    background-color: green ;
+
+}
+
+.grid footer {
+    background-color: yellow;
+}
