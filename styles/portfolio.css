@@ -1,0 +1,48 @@
+/* .projects {
+    text-align: center;
+    margin-bottom: 20%;
+}
+
+.projects>h1 {
+    margin-left: 80px;
+    margin-bottom: 80px;
+    text-align: left;
+}
+
+.projects-flex {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    font-size: 0.5em;
+    row-gap: 40px;
+}
+
+.projects-flex a:hover {
+    background-color: #511281;
+}
+
+.projects a {
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    background-color: #511281;
+    background-color: #23033b;
+    text-decoration: none;
+}
+
+.project-title {
+    color: rgb(76, 161, 163);
+
+}
+
+.project-descr {
+    color: white;
+    opacity: 0.6;
+
+}
+
+.project-card .fa-github {
+    color: white;
+    opacity: 0.6;
+
+} */
